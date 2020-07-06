@@ -53,7 +53,8 @@
         "staticField": true
       },
       "ID": 1,
-      "description": "This malicious flow reads the IMEI and writs to a static field. IMEI storeds in this static field is sent it to a remote server."
+      "description": "This malicious flow reads the IMEI and writs to a static field. IMEI storeds in this static field is sent it to a remote server.",
+      "isNegative": false
     },
     {
       "source": {
@@ -95,7 +96,8 @@
       ],
       "attributes": {},
       "ID": 2,
-      "description": "This malicious flow reads the IMEI and sends it to a server."
+      "description": "This malicious flow reads the IMEI and sends it to a server.",
+      "isNegative": false
     }
   ]
 }
